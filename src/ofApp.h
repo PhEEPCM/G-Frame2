@@ -4,11 +4,11 @@
 #include "ofxJSON.h"
 #include "ofxSimpleTimer.h"
 //#include "speechToText.h"
-#include "ofxHttp.h"
-
-
-
-using namespace ofx::HTTP;
+//#include "ofxHttp.h"
+//
+//
+//
+//using namespace ofx::HTTP;
 
 class ofApp : public ofBaseApp{
 
@@ -59,8 +59,8 @@ public:
     ofTrueTypeFont myfont;
     ofTrueTypeFont mybiggerfont;
     
-    DefaultClient sttClient;
-    Context sttContext;
+//    DefaultClient sttClient;
+//    Context sttContext;
     
     
 };
